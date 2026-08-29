@@ -1,0 +1,14 @@
+# OpenAI Agents 兼容元数据
+name: markdown-note-organizer
+description: >-
+  Organize messy pasted notes or Markdown fragments into clean, structured
+  Markdown notes with clear headings, bullet points, and merged duplicates.
+  Use when the user pastes disorganized notes and asks to tidy, reformat,
+  or restructure them.
+input: pasted_text
+output: markdown
+unsupported:
+  - web_scraping
+  - pdf_reading
+  - gui
+  - file_io
